@@ -1,0 +1,11 @@
+.bi {
+    color: blanchedalmond;
+    font-size: 2.5rem;
+}
+
+.otsikko {
+    background-color: #A9907E;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}

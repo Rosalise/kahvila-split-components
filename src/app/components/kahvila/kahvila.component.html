@@ -1,0 +1,19 @@
+  <!-- Kahvila-komponentin alku -->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="me-5">Kahvin myynti</h1>
+      <section class="numbers d-flex">
+      <label>Pöydän numero</label>
+      <input type="text" class="form-control mb-2" [(ngModel)]="uusiPoydanNumero">
+    </section>
+      <section class="numbers d-flex mt-1">
+      <label>Montako annosta</label>
+      <input type="text" class="form-control mb-2" [(ngModel)]="uusiMyyntiMaara">
+    </section>
+    <section class="button-group d-flex justify-content-start">
+      <button class="btn btn-success" (click)="kahviaMyyty()">Myynti</button>
+      <button class="btn btn-info" (click)="kahviaTarjoiltu()">Tarjoilu</button>
+    </section>
+    </div>
+  </div>
+  <!-- Kahvila-komponentin loppu -->
